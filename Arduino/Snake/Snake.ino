@@ -114,7 +114,6 @@ void moveSnake() {
   else if (dir == LEFT) snakeX[0]--;
   else if (dir == RIGHT) snakeX[0]++;
 
-  // NEW BORDER LOGIC (border touch allowed)
   if (snakeX[0] < 0 || snakeX[0] > PLAY_MAX_X ||
       snakeY[0] < 0 || snakeY[0] > PLAY_MAX_Y) {
 
