@@ -4,7 +4,7 @@ Using an Arduino Uno with a Raspberry Pi to simulate a simple networked game-con
 ## Overview
 This project demonstrates how to use a Raspberry Pi's networking and storage capabilities to support an Arduino Uno as a lightweight game console. The Raspberry Pi acts as a central server/storage for game binaries and assets, and the Arduino runs game firmware uploaded or delivered via the Pi. The repository includes Arduino sketches, Raspberry Pi scripts/tools, presentation slides, and the project report.
 
-## How it works (high level)
+## How it works
 - The Raspberry Pi stores multiple game builds (binaries, sketches, ROM-like files) and exposes them over the network (for example, via a simple HTTP/REST server, file share, or custom protocol).
 - A human operator or a UI on the Pi selects a game and initiates a deployment to the Arduino.
 - The Arduino receives code/data through a USB/serial connection (Arduino IDE / avrdude / custom serial uploader).
