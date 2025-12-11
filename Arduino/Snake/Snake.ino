@@ -13,9 +13,10 @@ Adafruit_SH1106G display = Adafruit_SH1106G(128, 64, &Wire);
 const int SCREEN_W = 128;
 const int SCREEN_H = 64;
 
+// Screen is 128x64 --> 16x8
 const int CELL = 8;
-const int COLS = 16;  // 128 / 8
-const int ROWS = 8;   // 64 / 8
+const int COLS = 16;  
+const int ROWS = 8;
 
 // FULL playable area (0..15, 0..7)
 const int8_t PLAY_MIN_X = 0;
