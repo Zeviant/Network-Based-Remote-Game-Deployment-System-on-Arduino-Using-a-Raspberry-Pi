@@ -14,7 +14,7 @@ Note: Implementation details (exact scripts, uploader mechanism, and serial prot
 
 ## Repository layout
 - Arduino/ — Arduino sketches and game source codes.
-- Raspberry Pi/ — Server script, game binaries, and thumbnails.
+- Raspberry Pi/ — Server script (app.py), game binaries, and thumbnails.
 - Videos/ — Demonstration videos for the project.
 - GROUP 7 - SLIDES.pdf — Presentation slides describing the project, architecture and results.
 - report_doc.pdf — Project report with detailed design, system evaluation, and testing outcomes.
