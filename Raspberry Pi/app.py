@@ -15,8 +15,6 @@ HTML = """
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 
     <style>
-        /* ===== TERMINAL NOIR THEME ===== */
-
         body {
             margin: 0;
             background: #060606;
@@ -212,5 +210,6 @@ def flash_game():
         + "\n"
         + result.stderr
     )
+
 
 app.run(host="0.0.0.0", port=5000)
