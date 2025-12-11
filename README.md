@@ -13,8 +13,8 @@ This project demonstrates how to use a Raspberry Pi's networking and storage cap
 Note: Implementation details (exact scripts, uploader mechanism, and serial protocol) are located in the `Raspberry Pi/` and `Arduino/` folders. Consult those folders for the exact scripts and sketches.
 
 ## Repository layout
-- Arduino/ — Arduino sketches, source code, and any hardware diagrams or sketches for the Arduino side.
-- Raspberry Pi/ — Server scripts, deployment tools, and instructions to run the Pi-side service that hosts and deploys games.
+- Arduino/ — Arduino sketches and game source codes.
+- Raspberry Pi/ — Server script, game binaries, and thumbnails.
 - Videos/ — Demonstration videos for the project.
 - GROUP 7 - SLIDES.pdf — Presentation slides describing the project, architecture and results.
 - report_doc.pdf — Project report with detailed design, system evaluation, and testing outcomes.
